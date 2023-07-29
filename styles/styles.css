@@ -1,14 +1,49 @@
+
 /* Header */
 .banner{
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: right;
-    padding: 130px 120px 110px 600px;
+    padding: 130px 120px 160px 600px;
      }
     .banner-title{
         font-family: 'Cabin', sans-serif;
         font-size: 35x;
-       
         color: azure;
+        margin-bottom: 10px;
         }
+        .banner-description{
+        font-size: 11x;
+        color: azure; 
+        font-size: small;
+        margin-top: 10px;
+        }
+        .banner-btn{
+            color: rgb(65, 132, 255);
+            background-color: azure;
+            padding: 5px 10px;
+            border: 0;
+            border-radius: 3px;
+        }
+        /* failures */
+        .failures{
+            display: flex;
+            margin: 80px 200px 50px 120px;
+            gap: 40px;
+            align-items: center;
+        }
+        .failures-title{
+        font-size: 35x;
+        margin-bottom: 10px;
+        }
+        .failures-description{
+            font-size: 11x;
+            font-size: small;
+        }
+        .failures-container{
+            margin-top: 120px;
+        }
+        
+       
+
