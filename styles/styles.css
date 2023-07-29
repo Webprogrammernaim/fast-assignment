@@ -1,0 +1,14 @@
+/* Header */
+.banner{
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    padding: 130px 120px 110px 600px;
+     }
+    .banner-title{
+        font-family: 'Cabin', sans-serif;
+        font-size: 35x;
+       
+        color: azure;
+        }
